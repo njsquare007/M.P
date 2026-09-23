@@ -32,7 +32,7 @@ main()
     });
 
 async function main() {
-    await mongoose.connect(MONGO_URL);
+    await mongoose.connect(MONGO_URL, { dbName: "wanderlust" });
 }
 
 app.set("view engine", "ejs");
