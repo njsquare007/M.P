@@ -8,7 +8,7 @@ Developed by **Narayan Jee Jha**.
 
 ## Live Demo
 
-- **Website:** *(coming soon — deploying on Render)*
+- **Website:** [https://m-p-0zft.onrender.com](https://m-p-0zft.onrender.com)
 - **Test Account:** Sign up with any email, or use a seeded account after running `localSeed.js` (password: `test1234`).
 
 ---
