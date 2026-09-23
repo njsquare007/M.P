@@ -68,7 +68,7 @@
       <li class="d-md-none"><hr class="dropdown-divider"></li>
 
 
-      <% if (currUser) { %>
+      <% if (typeof currUser !== 'undefined' && currUser) { %>
 
         <li class="px-3 pt-2 fw-bold">
           <i class="fa-solid fa-circle-user"></i>
@@ -108,7 +108,7 @@
       </li>
       <li><hr class="dropdown-divider"></li>
 
-      <% if(currUser) { %>
+      <% if (typeof currUser !== 'undefined' && currUser) { %>
 
         <li>
           <a class="px-3 pt-2 fw-bold dropdown-item" href="/logout">Log out</a>

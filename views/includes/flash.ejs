@@ -1,8 +1,8 @@
 <% 
     const flashes = [
-        { message: success, type: 'success' },
-        { message: error, type: 'danger' },
-        { message: warning, type: 'warning' },
+        { message: (typeof success !== 'undefined' ? success : null), type: 'success' },
+        { message: (typeof error !== 'undefined' ? error : null), type: 'danger' },
+        { message: (typeof warning !== 'undefined' ? warning : null), type: 'warning' },
     ];
 %>
 
